@@ -1,2 +1,2 @@
 # StyleTransfer
-Implementations of style transfer neural architectures based on Gatys et al's paper 
+Implementations of fast style transfer neural architectures
