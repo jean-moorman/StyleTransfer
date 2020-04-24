@@ -1,5 +1,4 @@
 # Perceptual Loss Style Transfer
-Implementation of fast style transfer "Perceptual Loss" neural architecture w/ instance normalization
 
 Training CMD Example (You should play around with content-weight to style-weight ratios), takes around 4 hrs on GPU:
 
