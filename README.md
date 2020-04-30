@@ -1,5 +1,17 @@
 # Perceptual Loss Style Transfer
 
+Step 1:
+
+Install Anaconda3 here: https://www.anaconda.com/products/individual
+Miniconda3 (much lighter): https://docs.conda.io/en/latest/miniconda.html
+
+Step 2:
+conda create -n pytorch
+conda activate pytorch
+conda install pytorch torchvision cudatoolkit=YOUR_CUDA_VERSION -c pytorch
+
+P.S. To find your CUDA version, run nvidia-smi in terminal
+
 Training CMD Example (You should play around with content-weight to style-weight ratios), takes around 4 hrs on GPU:
 
 python neural_style/fast-style-transfer.py train --cuda 1 --dataset /etc/detectron2/coco --style-image images/style-images/starrySky.jpeg --save-model-dir neural_style/saves --content-weight 1e2 --style-weight 5e7
