@@ -6,6 +6,7 @@ Install Anaconda3 here: https://www.anaconda.com/products/individual \
 Miniconda3 (much lighter): https://docs.conda.io/en/latest/miniconda.html
 
 Step 2:
+
 conda create -n pytorch \
 conda activate pytorch \
 conda install pytorch torchvision cudatoolkit=YOUR_CUDA_VERSION -c pytorch
