@@ -3,7 +3,7 @@
 Step 1:
 
 Install Anaconda3 here: https://www.anaconda.com/products/individual
-Miniconda3 (much lighter): https://docs.conda.io/en/latest/miniconda.html
+\nMiniconda3 (much lighter): https://docs.conda.io/en/latest/miniconda.html
 
 Step 2:
 conda create -n pytorch
