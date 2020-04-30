@@ -22,4 +22,4 @@ Evaluation CMD Example:
 python neural_style/fast-style-transfer.py eval --cuda 1 --model neural_style/saves/starrySky.model --content-image images/content-images/GroupPic.jpg --output-image images/output-images/SpaceGroup.jpg
 
 
-P.S. I included some pretrained style models with varying content-style ratios in the saves folder
+P.S.S. I included some pretrained style models with varying content-style ratios in the saves folder
