@@ -1,5 +1,7 @@
 # Perceptual Loss Style Transfer 
-(paper can be found [here](https://arxiv.org/abs/1603.08155))
+(original paper can be found [here](https://arxiv.org/abs/1603.08155)) \
+(instance norm can be found [here](https://arxiv.org/abs/1607.08022))
+
 Step 1:
 
 Install Anaconda3 here: https://www.anaconda.com/products/individual \
