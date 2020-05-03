@@ -1,4 +1,4 @@
-# Perceptual Loss Style Transfer
+# Perceptual Loss Style Transfer (paper can be found [here](https://arxiv.org/abs/1603.08155))
 
 Step 1:
 
