@@ -1,6 +1,5 @@
 # Perceptual Loss Style Transfer 
-(original paper can be found [here](https://arxiv.org/abs/1603.08155)) \
-(instance norm can be found [here](https://arxiv.org/abs/1607.08022))
+(original paper can be found [here](https://arxiv.org/abs/1603.08155) and instance norm [here](https://arxiv.org/abs/1607.08022))
 
 Step 1:
 
