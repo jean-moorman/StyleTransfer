@@ -12,7 +12,7 @@ conda create -n pytorch \
 conda activate pytorch \
 conda install pytorch torchvision cudatoolkit=YOUR_CUDA_VERSION -c pytorch
 
-P.S. To find your CUDA version, run nvidia-smi in terminal
+P.S. To find your CUDA version, run nvcc -V in linux terminal
 
 Training CMD Example (You should play around with content-weight to style-weight ratios), takes around 4 hrs on GPU:
 
