@@ -14,7 +14,7 @@ conda install pytorch torchvision cudatoolkit=YOUR_CUDA_VERSION -c pytorch
 
 P.S. To find your CUDA version, run nvcc -V in linux terminal
 
-Training CMD Example (You should play around with content-weight to style-weight ratios), takes around 4 hrs on GPU:
+Training CMD Example (You should play around with content-weight to style-weight ratios), takes around 4 hrs on a 1070TI GPU:
 
 python neural_style/fast-style-transfer.py train --cuda 1 --dataset /etc/detectron2/coco --style-image images/style-images/starrySky.jpeg --save-model-dir neural_style/saves --content-weight 1e2 --style-weight 5e7
 
